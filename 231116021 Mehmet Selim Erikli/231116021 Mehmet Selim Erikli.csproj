@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7D0CE1DB-1934-496E-8F35-E982F0D4055A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>_231116021_Mehmet_Selim_Erikli</RootNamespace>
+    <AssemblyName>231116021 Mehmet Selim Erikli</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmanaform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmanaform.Designer.cs">
+      <DependentUpon>frmanaform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGazeteler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGazeteler.Designer.cs">
+      <DependentUpon>frmGazeteler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGelirGider.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGelirGider.Designer.cs">
+      <DependentUpon>frmGelirGider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMesajlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMesajlar.Designer.cs">
+      <DependentUpon>frmMesajlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmmusteriekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmmusteriekle.Designer.cs">
+      <DependentUpon>frmmusteriekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMüsteriler.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMüsteriler.Designer.cs">
+      <DependentUpon>frmMüsteriler.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmodalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmodalar.Designer.cs">
+      <DependentUpon>frmodalar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRadioEysel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRadioEysel.Designer.cs">
+      <DependentUpon>frmRadioEysel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSifreGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSifreGuncelle.Designer.cs">
+      <DependentUpon>frmSifreGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStoklar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStoklar.Designer.cs">
+      <DependentUpon>frmStoklar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmanaform.resx">
+      <DependentUpon>frmanaform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGazeteler.resx">
+      <DependentUpon>frmGazeteler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGelirGider.resx">
+      <DependentUpon>frmGelirGider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMesajlar.resx">
+      <DependentUpon>frmMesajlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmmusteriekle.resx">
+      <DependentUpon>frmmusteriekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMüsteriler.resx">
+      <DependentUpon>frmMüsteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmodalar.resx">
+      <DependentUpon>frmodalar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRadioEysel.resx">
+      <DependentUpon>frmRadioEysel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSifreGuncelle.resx">
+      <DependentUpon>frmSifreGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStoklar.resx">
+      <DependentUpon>frmStoklar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KARDELEN.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-06 225736.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 153029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 153258.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 172005.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 171847.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 172325.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ekran görüntüsü 2024-12-07 173330.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
